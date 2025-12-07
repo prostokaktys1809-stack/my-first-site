@@ -1,0 +1,9 @@
+# robots.txt
+User-agent: *
+Allow: /
+# Обмеження сканування для сторінок, які не мають потрапляти в індекс
+Disallow: /temp/
+
+Disallow: /private-scripts/
+# Вказуємо шлях до нашої карти сайту.
+Sitemap: https://github.com/prostokaktys1809-stack/my-first-site/sitemap.xml
